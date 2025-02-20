@@ -40,4 +40,4 @@ async def suggest_api(gherkin_step: str):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(util, host="127.0.0.1", port=8000)
