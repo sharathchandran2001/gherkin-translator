@@ -45,3 +45,12 @@ def translate_gherkin(step: GherkinStep):
         raise HTTPException(status_code=404, detail="No match found and fallback mapping is empty.")
 
 # To run the application, use: uvicorn app:app --reload
+
+# refer mapping.json
+"""
+{
+  "credit card details": "https://api.example.com/getCreditCardDetails",
+  "account details": "https://api.example.com/getAccountDetails",
+  "mortgage account details": "https://api.example.com/getMortgageAccountDetails"
+}
+"""
